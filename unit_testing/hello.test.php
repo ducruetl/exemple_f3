@@ -1,7 +1,7 @@
 <?php
 
 include('hello.class.php');
-$f3=require(__DIR__.'/lib/base.php');
+$f3=require(__DIR__.'../lib/base.php');
 
 $test = new Test;
 
