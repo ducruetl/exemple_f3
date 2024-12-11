@@ -1,7 +1,7 @@
 <?php
 
 include('hello.class.php');
-$f3=require(__DIR__.'../lib/base.php');
+$f3=require(__DIR__.'/../lib/base.php');
 
 $test = new Test;
 
@@ -35,3 +35,5 @@ foreach ($test->results() as $result) {
 		echo 'Test échoué ('.$result['source'].')';
 	echo PHP_EOL;
 }
+
+echo "(C'est normal que le test marche c'est pour montrer l'affichage tkt)".PHP_EOL;
